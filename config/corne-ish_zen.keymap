@@ -53,9 +53,9 @@
                 numrow_layer {
                         label = "NUMROW";
                         bindings = <
-   &kp ESC   &kp N1 &kp N2 &kp N3    &kp N4    &kp N5       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0   &kp DEL
-   &kp GRAVE &none  &none  &kp PSCRN &kp MINUS &kp EQUAL    &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SEMI &none
-   &none     &none  &none  &kp BSLH  &kp LBKT  &kp RBKT     &none    &none    &none  &none     &none    &none 
+   &kp ESC   &kp N1 &kp N2 &kp N3    &kp N4    &kp N5       &kp N6   &kp N7   &kp N8   &kp N9    &kp N0   &kp DEL
+   &kp GRAVE &none  &none  &kp PSCRN &kp MINUS &kp EQUAL    &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp SEMI &kp ENTER
+   &kp LSHFT &none  &none  &kp BSLH  &kp LBKT  &kp RBKT     &none    &none    &kp CMMA &kp DOT   &kp FSLH &kp RSFT 
                           &mo CONFIG &kp LCTL &mo NUMROW    &kp SPC &mo ADJUST &kp F13
                         >;
                 };
@@ -63,9 +63,9 @@
                 adjust_layer {
                         label = "ADJUST";
                         bindings = <
-   &kp F1      &kp F2  &kp F3   &kp F4    &kp F5 &kp F6    &kp F7   &kp F8   &kp F9 &kp F10   &kp F11 &kp F12
-   &kp CAPS    &kp INS &kp HOME &kp PG_UP &none  &none     &kp LEFT &kp DOWN &kp UP &kp RIGHT &none   &none
-   &tog NUMPAD &kp DEL &kp END  &kp PG_DN &none  &none     &none    &none    &none  &none     &none   &none
+   &kp F1      &kp F2  &kp F3   &kp F4    &kp F5 &kp F6    &kp F7     &kp F8     &kp F9     &kp F10   &kp F11 &kp F12
+   &kp CAPS    &kp INS &kp HOME &kp PG_UP &none  &none     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT &none   &none
+   &tog NUMPAD &kp DEL &kp END  &kp PG_DN &none  &none     &kp C_PREV &kp C_PLAY &kp C_NEXT &none     &none   &none
                            &kp LGUI &kp LCTL &mo NUMROW    &kp SPC &mo ADJUST &tog GAMING
                         >;
                 };
